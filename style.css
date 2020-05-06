@@ -1,0 +1,64 @@
+body{
+    position: relative;
+    background: linear-gradient(90deg, red, yellow, blue);
+}
+.card{
+    position: absolute;
+    top: 10vw;
+    margin: auto;
+    width: 40%;
+    transition: 0.5s ease;
+    curser: pointer;
+}
+h5{
+    text-align: center;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 90%;
+}
+.btn{
+    width: 50%;
+    margin: auto;
+}
+.btn-position{
+    position: relative;
+}
+.link{
+    text-align: right;
+}
+#shadow{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+}
+hr.one{
+    height: 5px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to left, blue, yellow, red);
+}
+hr.two{
+    border: none;
+    border-top: 2px solid;
+    color: gray;
+}
+hr.three{
+    border: none;
+    border-top: 2px solid;
+    color: gray;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.input-box:hover{
+    color: blue;
+}
+.forget:hover{
+    color: red;
+}
+strong:hover{
+    color: red
+}
