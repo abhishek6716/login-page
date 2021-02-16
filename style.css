@@ -6,9 +6,9 @@ body{
     position: absolute;
     top: 10vw;
     margin: auto;
-    width: 40%;
+    width: 50%;
     transition: 0.5s ease;
-    curser: pointer;
+    cursor: pointer;
 }
 h5{
     text-align: center;
